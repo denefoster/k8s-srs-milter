@@ -1,0 +1,8 @@
+apiVersion: v2
+description: Chart for deploying srs-milter
+name: srsmilter
+type: application
+version: 1.0.1
+appVersion: v1.0.1
+maintainers:
+  - name: Dane Foster
