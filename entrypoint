@@ -10,7 +10,7 @@ configure_srsmilter() {
   log "creating srs-milter config"
 
   mkdir -p /etc/srs-milter
-  cat << END >> /etc/srs-milter/srs-milter.yaml
+  cat << END >> /etc/srs-milter/srs-milter.yml
   # Required: The domain we use to generate SRS addresses
   srsDomain: 'dmarc.me.com'
 
@@ -48,7 +48,7 @@ configure_srsmilter() {
 END
 }
 
-if [ ! -f "/etc/srs-milter/srs-milter.yaml" ]; then
+if [ ! -f "/etc/srs-milter/srs-milter.yml" ]; then
   configure_srsmilter
 fi
 
