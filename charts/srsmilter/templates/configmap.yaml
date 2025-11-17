@@ -8,8 +8,8 @@ data:
     srsDomain: {{ .Values.srsmilter.srsDomain }}
 
     srsKeys:
-    {{- range .Values.srsmilter.srsKey }}
-      '{{ . }}'
+    {{- range .Values.srsmilter.srsKeys }}
+      - '{{ . }}'
     {{- end }}
 
     # All domains we consider local (i.e. we do not forward but deliver locally)
