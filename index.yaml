@@ -2,6 +2,18 @@ apiVersion: v1
 entries:
   srsmilter:
   - apiVersion: v2
+    appVersion: 1.0.6
+    created: "2026-01-14T22:03:44.787918809Z"
+    description: Chart for deploying srs-milter
+    digest: 1beef95f95a06624e0387a45fe2b6e91fa7e47a5ca9feaf1118a7bcf1f77958f
+    maintainers:
+    - name: Dane Foster
+    name: srsmilter
+    type: application
+    urls:
+    - https://github.com/denefoster/k8s-srs-milter/releases/download/srsmilter-1.0.6/srsmilter-1.0.6.tgz
+    version: 1.0.6
+  - apiVersion: v2
     appVersion: v1.0.5
     created: "2025-11-17T07:04:25.010284041Z"
     description: Chart for deploying srs-milter
@@ -49,4 +61,4 @@ entries:
     urls:
     - https://github.com/denefoster/k8s-srs-milter/releases/download/srsmilter-1.0.2/srsmilter-1.0.2.tgz
     version: 1.0.2
-generated: "2025-11-17T07:04:25.010301434Z"
+generated: "2026-01-14T22:03:44.787937724Z"
